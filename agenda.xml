@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="usuarios.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<usuarios>
+    <usuario id="U001">
+        <nombreCompleto>María García López</nombreCompleto>
+        <nombreUsuario>maria.garcia</nombreUsuario>
+        <email>maria.garcia@email.com</email>
+        <telefono>612345678</telefono>
+        <codigoPostal>28001</codigoPostal>
+        <contrasena>Passw0rd!23</contrasena>
+        <fechaRegistro>2025-03-10</fechaRegistro>
+        <activo>true</activo>
+    </usuario>
+    
+    <usuario id="U002">
+        <nombreCompleto>Juan Pérez Rodríguez</nombreCompleto>
+        <nombreUsuario>juan_perez</nombreUsuario>
+        <email>juan.perez@empresa.es</email>
+        <telefono>954123456</telefono>
+        <codigoPostal>41001</codigoPostal>
+        <contrasena>Secure#Pass99</contrasena>
+        <fechaRegistro>2025-09-03</fechaRegistro>
+        <activo>true</activo>
+    </usuario>
+    
+    <usuario id="U003">
+        <nombreCompleto>Ana Martínez Sánchez</nombreCompleto>
+        <nombreUsuario>ana.martinez</nombreUsuario>
+        <email>ana.martinez@empresa.com</email>
+        <telefono>935551122</telefono>
+        <codigoPostal>08001</codigoPostal>
+        <contrasena>Comp!exPwd777</contrasena>
+        <fechaRegistro>2025-03-08</fechaRegistro>
+        <activo>false</activo>
+    </usuario>
+</usuarios>
